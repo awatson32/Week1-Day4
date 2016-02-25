@@ -1,9 +1,5 @@
-function checkAge() {
-    var age = prompt('What is your age?');
-    console.log('Hello, you are ' + age);
-    if (age < 21) {
-        alert('You are under 21');
-    } else {
-        alert('You are 21+');
-    }
-}   
+function createDiv() {
+    var btn = document.createElement("BUTTON");
+    var text = document.createAttribute("Click");
+    btn.appendChild(text);
+}
