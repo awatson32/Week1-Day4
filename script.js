@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     
     function squareHover() {
-        document.getElementById("square");
+        document.getElementById("square").property('hover');
         // var i;
         // for (i = 0; i < count.length ; i++);
                     
