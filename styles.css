@@ -1,9 +1,13 @@
 .square {
-  width: 200px;
-  height: 200px;
-  color: red;
-  position: relative;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  float: left;
+  margin-top: 2%;
 }
-.createButton {
-  text-align: center;
+#button {
+  position: fixed;
+  left: 50%;
+  margin-bottom: 1em;
 }
